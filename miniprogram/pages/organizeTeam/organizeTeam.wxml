@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="team" wx:for="{{teams}}">
+    <view class="header">
+      <view class="leader"></view>
+      <view class="title">{{item.drama.name}}</view>
+    </view>
+    <view class="participant" wx:for="{{participants}}" wx:key="*this"></view>
+  </view>
+</view>

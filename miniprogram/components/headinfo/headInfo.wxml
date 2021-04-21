@@ -1,0 +1,6 @@
+<template>
+  <view class="border {{userInfo.gender || 'man'}} {{userInfo.leader ?  : ''}}">
+    <img src="{{userInfo.avatarUrl}}"></img>
+  </view>
+</template>
+
